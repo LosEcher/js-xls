@@ -1,4 +1,4 @@
-/* xls.js (C) 2013-2015 SheetJS -- http://sheetjs.com */
+/* xls.js (C) 2013-present SheetJS -- http://sheetjs.com */
 /* uncomment the next line for encoding support */
 //importScripts('dist/cpexcel.js');
 importScripts('xls.js');
@@ -26,4 +26,3 @@ onmessage = function (oEvent) {
   var r = s2ab(res.d)[1];
   postMessage(r, [r]);
 };
-
